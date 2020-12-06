@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "training-app-fe"
+  "defaultProject": "training-app-fe",
+  "cli": {
+    "analytics": false
+  }
 }
