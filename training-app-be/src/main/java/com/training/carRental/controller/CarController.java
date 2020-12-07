@@ -1,4 +1,4 @@
-package com.training.carRental.service;
+package com.training.carRental.controller;
 
 import java.util.List;
 
@@ -20,14 +20,14 @@ for RESTful requests such as: getAllCars, postCars, deleteCar,
 deleteAllCars, findById, updateCar.
  */
 
-    @CrossOrigin(origins = "http://localhost:4200")
+
 
    /* @RestController è una combinazione di  @Controller e @ResponseBody
    * @Controller è usata per definire un controller
    * @ResponseBody annotazione utilizzata per indicare che il valore restituito
    * dal metodo deve essere usato come "response body" della richiesta
    * */
-
+    @CrossOrigin(origins = "http://localhost:4200")
     @RestController
     @RequestMapping("/api")
     public class CarController {

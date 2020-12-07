@@ -5,22 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ec618cd-b7a9-434d-862c-343e4d9e2eef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/training/carRental/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/training/carRental/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/training/carRental/model/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/training/carRental/model/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/training/carRental/repo/CarRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/training/carRental/repo/ClientRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/training/carRental/service/CarController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/training-app-be.iml" beforeDir="false" afterPath="$PROJECT_DIR$/training-app-be.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/training/carRental/model/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/training/carRental/model/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/training/carRental/service/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/training/carRental/controller/CarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../training-app-fe/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../training-app-fe/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../training-app-fe/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../training-app-fe/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +42,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">

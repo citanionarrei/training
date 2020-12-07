@@ -10,7 +10,7 @@ import javax.persistence.Id;
 import javax.validation.constraints.NotBlank;
 import java.sql.Timestamp;
 
-@Entity
+@Entity(name = "car")
 @Getter
 @Setter
 public class Car {
