@@ -41,7 +41,7 @@ deleteAllCars, findById, updateCar.
 
 
         @GetMapping("/cars")
-        public List<Car> getAllNotes() {
+        public List<Car> getAllCars() {
             return carRepository.findAll();
         }
 
@@ -71,6 +71,10 @@ deleteAllCars, findById, updateCar.
             car.setBrand(carDetails.getBrand());
             car.setModel(carDetails.getModel());
             car.setColour(carDetails.getColour());
+            car.setPrice(carDetails.getPrice());
+
+
+
 
             Car updatedCar = carRepository.save(car);
             return updatedCar;
@@ -81,7 +85,7 @@ deleteAllCars, findById, updateCar.
         @DeleteMapping("/cars/{id}")
         public ResponseEntity<?> deleteCar(@PathVariable(value = "id") Long carId) {
             Car note = carRepository.findById(carId)
-                    .orElseThrow(() -> new ResourceNotFoundException("Note", "id", carId));
+                    .orElseThrow(() -> new ResourceNotFoundException("Car", "id", carId));
 
             carRepository.delete(note);
 

@@ -10,27 +10,25 @@ import javax.persistence.Id;
 import javax.validation.constraints.NotBlank;
 import java.sql.Timestamp;
 
-@Entity(name = "car")
+
 @Getter
 @Setter
+@Entity(name = "car")
 public class Car {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     public long id;
 
-
-    //field not null
     @NotBlank
     public String brand;
 
-    //field not null
     @NotBlank
     public String model;
 
     public String colour;
 
-    public java.sql.Timestamp timestamp;
+    public String  price;
 
     public Car() {
     }
@@ -39,40 +37,40 @@ public class Car {
         return id;
     }
 
-    public String getBrand() {
-        return brand;
-    }
-
-    public String getModel() {
-        return model;
-    }
-
-    public String getColour() {
-        return colour;
-    }
-
-    public Timestamp getTimestamp() {
-        return timestamp;
-    }
-
     public void setId(long id) {
         this.id = id;
+    }
+
+    public String getBrand() {
+        return brand;
     }
 
     public void setBrand(String brand) {
         this.brand = brand;
     }
 
+    public String getModel() {
+        return model;
+    }
+
     public void setModel(String model) {
         this.model = model;
+    }
+
+    public String getColour() {
+        return colour;
     }
 
     public void setColour(String colour) {
         this.colour = colour;
     }
 
-    public void setTimestamp(Timestamp timestamp) {
-        this.timestamp = timestamp;
+    public String getPrice() {
+        return price;
+    }
+
+    public void setPrice(String price) {
+        this.price = price;
     }
 };
 
